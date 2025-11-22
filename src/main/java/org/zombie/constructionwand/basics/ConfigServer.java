@@ -110,10 +110,10 @@ public class ConfigServer
                 "in the /saves/myworld/serverconfig folder. If you want to change the serverconfig for all",
                 "new worlds, copy the config files in the /defaultconfigs folder.");
 
-        new WandProperties(builder, ModItems.WAND_STONE, Tiers.STONE.getUses(), 9, 0, 0, false);
-        new WandProperties(builder, ModItems.WAND_IRON, Tiers.IRON.getUses(), 27, 2, 9, true);
-        new WandProperties(builder, ModItems.WAND_DIAMOND, Tiers.DIAMOND.getUses(), 128, 8, 25, true);
-        new WandProperties(builder, ModItems.WAND_INFINITY, 0, 1024, 16, 81, true);
+        new WandProperties(builder, ModItems.WAND_STONE, Tiers.STONE.getUses(), 18, 0, 0, false);
+        new WandProperties(builder, ModItems.WAND_IRON, Tiers.IRON.getUses(), 54, 2, 9, true);
+        new WandProperties(builder, ModItems.WAND_DIAMOND, Tiers.DIAMOND.getUses(), 256, 8, 81, true);
+        new WandProperties(builder, ModItems.WAND_INFINITY, 0, 2048, 16, 1024, true);
 
         builder.push("misc");
         builder.comment("Block limit for Infinity Wand used in creative mode");
